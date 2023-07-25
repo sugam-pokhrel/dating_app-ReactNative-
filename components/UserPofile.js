@@ -3,7 +3,7 @@ import React from 'react';
 export default function HomeScreen(){
 return(
     <View style={styles.container}>
-      <Text>This is the home Screen</Text>
+      <Text>This is the user Profile</Text>
       
     </View>
 )

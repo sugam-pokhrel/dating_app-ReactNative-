@@ -19,7 +19,7 @@ const tabs=()=>{
             } else if (route.name === 'Settings') {
               iconName = focused ? 'settings' : 'settings-outline';
             }else if (route.name === 'Profile') {
-               
+               iconName=focused?'cutlery':'cutlery-outline';
             }
 
             // You can return any component that you like here!
@@ -27,7 +27,8 @@ const tabs=()=>{
           },
           tabBarActiveTintColor: 'tomato',
           tabBarInactiveTintColor: 'gray',
-          headerShown:false
+          headerShown: false,
+          // headerBackground: () => ({style: {backgroundColor: 'blue'}}),
         })}
         
         >
